@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.example.studentebag.CheckStudentWork.StudentWorkActivity;
 import com.example.studentebag.Class.UserDataDetail;
@@ -69,9 +70,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button loginButton = (Button)findViewById(R.id.login_button);
-        Button teacherWorkList = (Button)findViewById(R.id.teacher_work_list);
-        Button studentWorkList = (Button)findViewById(R.id.student_work_list);
+        ImageButton loginButton = (ImageButton)findViewById(R.id.login_button);
+        ImageButton teacherWorkList = (ImageButton)findViewById(R.id.teacher_work_list);
+        ImageButton studentWorkList = (ImageButton)findViewById(R.id.student_work_list);
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

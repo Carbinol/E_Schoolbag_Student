@@ -4,22 +4,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
+    <ImageButton
+        android:layout_marginTop="5dp"
         android:id="@+id/login_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="登录"/>
+        android:layout_width="400dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:background="#2a458c"
+        android:src="@drawable/login"/>
 
-    <Button
+    <ImageButton
+        android:layout_marginTop="5dp"
         android:id="@+id/teacher_work_list"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="查看题目列表"/>
+        android:layout_width="400dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:background="#2a458c"
+        android:src="@drawable/teacher_work_list"/>
 
-    <Button
+    <ImageButton
+        android:layout_marginTop="5dp"
         android:id="@+id/student_work_list"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="查看过往提交"/>
+        android:layout_width="400dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:background="#2a458c"
+        android:src="@drawable/student_work_list"/>
 
 </LinearLayout>
