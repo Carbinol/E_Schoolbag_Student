@@ -48,6 +48,8 @@ public class StudentWorkAdapter extends RecyclerView.Adapter<StudentWorkAdapter.
                 intent.putExtra("TeacherWorkId", studentWorkItem.getTeacherWorkId());
                 intent.putExtra("StudentWorkId", studentWorkItem.getStudentWorkId());
                 intent.putExtra("Content", studentWorkItem.getContent());
+                    intent.putExtra("Score", studentWorkItem.getScore());
+                    intent.putExtra("Remark", studentWorkItem.getRemark());
                 parent.getContext().startActivity(intent);
 
             }

@@ -42,7 +42,7 @@ public class StudentCourseActivity extends AppCompatActivity {
             public void run() {
                 try {
                     Request request = new Request.Builder()
-                            .url("http://192.168.1.105:8080/students/courses")
+                            .url("https://wenkui0229.top:18080/students/courses")
                             .build();
                     Response response = MainActivity.client.newCall(request).execute();
                     Log.d(TAG, response.code() + "");
