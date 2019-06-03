@@ -11,6 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".CheckStudentWork.EditStudentWorkActivity"></activity>
+        <activity android:name=".CheckStudentWork.StudentWorkActivity" />
+        <activity android:name=".NewStudentWork.NewStudentWorkActivity" />
+        <activity android:name=".NewStudentWork.TeacherWorkActivity" />
+        <activity android:name=".NewStudentWork.StudentCourseActivity" />
+        <activity android:name=".User.LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

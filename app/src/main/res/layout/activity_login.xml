@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--登陆页面-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
+    android:gravity="center_horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:maxLength="16"
+        android:hint="用户名"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="12"
+        android:maxLength="16"
+        android:hint="密码"/>
+
     <Button
-        android:id="@+id/login_button"
+        android:id="@+id/login_button_loginpage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="登录"/>
-
-    <Button
-        android:id="@+id/teacher_work_list"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="查看题目列表"/>
-
-    <Button
-        android:id="@+id/student_work_list"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="查看过往提交"/>
 
 </LinearLayout>
