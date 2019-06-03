@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/login_button_mainpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"/>
+
+    <Button
+        android:id="@+id/show_student_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看学生列表"/>
+
+    <Button
+        android:id="@+id/new_teacher_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发布新题目"/>
+
+    <Button
+        android:id="@+id/check_teacher_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看题目列表"/>
+</LinearLayout>
